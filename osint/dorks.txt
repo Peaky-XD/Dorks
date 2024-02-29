@@ -3,3 +3,13 @@ Harvard -site:Wikipedia.org
 Yale University AND Harvard University site:.edu
 “subject tweet content” -site:twitter.com
 site:facebook.com intext:Harvard_404
+“search term” = exact phrase, i.e. "Skopenow streamlines your due diligence and claims process"
+OR or | = either search term or search term, i.e. Ed OR Edward or Ed|Edward|Edwin
++ or AND = search term and search term, i.e. Steve Adams AND Skopenow
+- = Not search term, i.e. Skopenow -www.skopenow.com
+inurl: = Only show results where text is in the web address of a website, i.e. inurl:resume “john smith”
+intext: = Only show results where text is in the main body of the text of a website, i.e. Skopenow intext:OSINT
+cache: = Only show cached links, i.e. cache:skopenow.com
+map: = map a specific location, i.e. map: Manhattan
+cache:www.youtube.com
+“John J. Doe” filetype:pdf OR filetype:xlsx OR filetype:docx
