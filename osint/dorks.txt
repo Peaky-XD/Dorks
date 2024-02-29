@@ -1,0 +1,5 @@
+Harvard site:Wikipedia.org
+Harvard -site:Wikipedia.org
+Yale University AND Harvard University site:.edu
+“subject tweet content” -site:twitter.com
+site:facebook.com intext:Harvard_404
